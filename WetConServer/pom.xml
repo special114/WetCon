@@ -65,12 +65,12 @@
 	<repository>
 		<id>WetCon</id>
 		<name>release</name>
-		<url>http://localhost:8082/repository/WetCon/</url>
+		<url>http://localhost:8082/repository/WetConRELEASE/</url>
 	</repository>
 	<snapshotRepository>
 		<id>WetCon</id>
 		<name>snapshot</name>
-		<url>http://localhost:8082/repository/WetCon2/</url>
+		<url>http://localhost:8082/repository/WetConSNAP/</url>
 	</snapshotRepository>
 </distributionManagement>
 	
