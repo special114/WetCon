@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.bimbrownicy</groupId>
-	<artifactId>WetConServer</artifactId>
+	<artifactId>WetCon</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>WetConServer</name>
 	<description>Demo project for Spring Boot</description>
