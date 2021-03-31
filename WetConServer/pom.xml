@@ -68,7 +68,7 @@
 		<url>http://localhost:8082/repository/WetCon/</url>
 	</repository>
 	<snapshotRepository>
-		<id>WetCon2</id>
+		<id>WetCon</id>
 		<name>snapshot</name>
 		<url>http://localhost:8082/repository/WetCon2/</url>
 	</snapshotRepository>
