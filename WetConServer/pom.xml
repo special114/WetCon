@@ -61,4 +61,17 @@
 		</plugins>
 	</build>
 
+<distributionManagement>
+	<repository>
+		<id>WetCon</id>
+		<name>release</name>
+		<url>http://localhost:8082/repository/WetCon/</url>
+	</repository>
+	<snapshotRepository>
+		<id>WetCon2</id>
+		<name>snapshot</name>
+		<url>http://localhost:8082/repository/WetCon2/</url>
+	</snapshotRepository>
+</distributionManagement>
+	
 </project>
