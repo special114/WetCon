@@ -1,7 +1,7 @@
 package com.bimbrownicy.wetconserver;
 
 public class Response {
-    private String text = "Hello Adam!";
+    private String text = "Hello Panie Doktorze Łukaszu!";
 
     public String getText() {
         return text;

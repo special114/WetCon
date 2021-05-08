@@ -10,7 +10,7 @@ public class ResponseTest {
     @Test
     public void returnTest() {
         Response response = new Response();
-        assertEquals("Hello Adam!", response.getText());
+        assertEquals("Hello Panie Doktorze Łukaszu!", response.getText());
     }
 
 }
