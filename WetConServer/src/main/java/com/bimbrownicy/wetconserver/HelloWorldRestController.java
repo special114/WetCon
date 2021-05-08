@@ -20,7 +20,7 @@ public class HelloWorldRestController {
         try {
             Integer random = (int) (Math.random() * 10) % (int) greetingsRepository.count();
             return new Response(greetingsRepository.findById(random).get().getText());
-        }
+        }//hello world
         catch (Exception ex)
         {
             return new Response();
