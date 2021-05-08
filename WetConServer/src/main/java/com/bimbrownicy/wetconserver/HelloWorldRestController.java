@@ -17,7 +17,13 @@ public class HelloWorldRestController {
 
     @GetMapping("/")
     public Response helloWorld() {
-        Integer random = (int)(Math.random()*10)%(int) greetingsRepository.count();
+        try {
+            Integer random = (int) (Math.random() * 10) % (int) greetingsRepository.count();
             return new Response(greetingsRepository.findById(random).get().getText());
+        }
+        catch (Exception ex)
+        {
+            return new Response();
+        }
     }
 }
