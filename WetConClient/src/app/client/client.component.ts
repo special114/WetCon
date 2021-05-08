@@ -26,7 +26,7 @@ export class ClientComponent implements OnInit {
   }
 
   getHelloWorld(): void {
-    this.httpClient.get<any>("http://localhost:8080/").subscribe(
+    this.httpClient.get<any>("http://localhost:8081/").subscribe(
       res => {
         let tmp: Response;
         tmp = res;
