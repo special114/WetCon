@@ -10,4 +10,11 @@ public class Response {
     public void setText(String text) {
         this.text = text;
     }
+
+    public Response() {}
+
+    public Response(String text)
+    {
+        this.text = text;
+    }
 }
